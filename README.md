@@ -1,20 +1,20 @@
-# dash-protocol
+# terracoin-protocol
 
-[![npm version](https://img.shields.io/npm/v/dash-protocol.svg)](https://www.npmjs.com/package/dash-protocol)
-[![Build Status](https://travis-ci.org/dashpay/dash-protocol.svg?branch=master)](https://travis-ci.org/dashpay/dash-protocol)
-[![Dependency Status](https://david-dm.org/dashpay/dash-protocol.svg)](https://david-dm.org/dashpay/dash-protocol)
+[![npm version](https://img.shields.io/npm/v/terracoin-protocol.svg)](https://www.npmjs.com/package/terracoin-protocol)
+[![Build Status](https://travis-ci.org/terracoin/terracoin-protocol.svg?branch=master)](https://travis-ci.org/terracoin/terracoin-protocol)
+[![Dependency Status](https://david-dm.org/terracoin/terracoin-protocol.svg)](https://david-dm.org/terracoin/terracoin-protocol)
 
-**Dash network protocol streams**
+**Terracoin network protocol streams**
 
 This module encodes and decodes low-level network protocol data using streams.
 
 ## Usage
 
-`npm install dash-protocol`
+`npm install terracoin-protocol`
 
 ```js
 var net = require('net')
-var bp = require('dash-protocol')
+var bp = require('terracoin-protocol')
 
 var decoder = bp.createDecodeStream()
 decoder.on('data', function (message) { console.log(message) })
