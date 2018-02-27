@@ -11,9 +11,9 @@
     "decode",
     "webcoin"
   ],
-  "homepage": "https://github.com/TheSin-/terracoin-protocol#readme",
+  "homepage": "https://github.com/terracoin/terracoin-protocol#readme",
   "bugs": {
-    "url": "https://github.com/TheSin-/terracoin-protocol/issues"
+    "url": "https://github.com/terracoin/terracoin-protocol/issues"
   },
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
@@ -24,7 +24,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheSin-/terracoin-protocol.git"
+    "url": "https://github.com/terracoin/terracoin-protocol.git"
   },
   "scripts": {
     "test": "standard && nyc tape test/*.js | faucet && nyc report",
